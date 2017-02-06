@@ -73,22 +73,22 @@ CONTROLES
  *t,g : Para aumentar y disminuir el tamaño del dibujo
  *y,h : Para aumentar y disminuir la circunferencia de giro
  *u,j : Para aumentar el efecto espirografico.
-* a  : Para limpiar la pantalla
-* d  : Para activar el modo que se limpia la pantalla constantemente
-* q  : Para randomizar de 0 el tamaño al ultimo tamaño asignado.
-* e  : Para activar un random que te rompe la cabeza con el color.
+ *a  : Para limpiar la pantalla
+ *d  : Para activar el modo que se limpia la pantalla constantemente
+ *q  : Para randomizar de 0 el tamaño al ultimo tamaño asignado.
+ *e  : Para activar un random que te rompe la cabeza con el color.
  *i,k Para aumentar y disminuir el HUE
  *o,l Para aumentar y disminuir la saturacion
  * p,ñ Para aumentar y disminuir el brillo.
  * b,n : transparencia. 
  
-Colores del borde
-* 2,3: Tamaño del borde
-* 4,5: Saturación del borde
- *6,7: brillo del borde
-* 8,9: transparencia del borde
- 
- COMO RETOCAR VARIABLES MAXIMAS Y MINIMAS PARA EL RESOLUME : 
+ Colores del borde
+ * 2,3: Tamaño del borde
+ * 4,5: Saturación del borde
+  *6,7: brillo del borde
+ * 8,9: transparencia del borde
+
+COMO RETOCAR VARIABLES MAXIMAS Y MINIMAS PARA EL RESOLUME : 
  
  Abrir el archivo que dice Spyrographics.txt, ahí figura el nombre de cada variable, el valor maximo y el minimo. 
 
@@ -131,9 +131,9 @@ Go to Tools>Add Tools > Libraries y search for :
 
 CONTROLS 
  
- v : Change displayMODE
- a : Clears the screen
- B : PrintScreen
+ *v : Change displayMODE
+ *a : Clears the screen
+ *B : PrintScreen
 
  1) DISPLAY MODE 1 : HANDDRAWING . This mode is for drawing with the mouse.
  Press M for activate the "always draw" or "draw only when press" option
@@ -169,8 +169,8 @@ CONTROLS
  *d  : Activate always cleaning mode
  *q  : Randomize size of drawing  using SIZE value as the max posible value and 0 as the min posible value
  *e  : HEADACHE RANDOM COLOR. (IT BURNS YOUR BRAIN)
-* i,k : HUE
-* o,l :saturacion
+ *i,k : HUE
+ *o,l :saturacion
  *p,ñ : brightness.
  *b,n : Alpha channel. 
  
