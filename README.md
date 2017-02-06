@@ -32,9 +32,9 @@ Los controles solo funcionan si se esta abierto como ventana del processing, es 
 
 CONTROLES 
  
- v : Cambia el modo de display. 
- a : Limpia la pantalla
- B : PrintScreen
+ * v : Cambia el modo de display. 
+ * a : Limpia la pantalla
+ * B : PrintScreen
 
  1) MODO DIBUJAR A MANO. En este modo es solo un patron de dibujos, sin que se mueva.
  
@@ -45,17 +45,16 @@ CONTROLES
  
  Para controlar las filas y columnas se utilizan las flechas :
 
-  UP :  Agrega fila.
-  DOWN : Borra fila.
-  LEFT : Agrega columna.
-  RIGHT : Borra columna.
+  * UP :  Agrega fila.
+  * DOWN : Borra fila.
+  * LEFT : Agrega columna.
+  * RIGHT : Borra columna.
 
 
  3) MODO OBJETOS. ESTE ES EL MODO POR DEFECTO
  
- R: Borra todos los dibujos.
- 
- C: Te desactiva el ultimo objeto que apretaste
+ * R: Borra todos los dibujos.
+ * C: Te desactiva el ultimo objeto que apretaste
  
  Se pueden crear grupos de objetos seteados con variables para luego poder crear otros y tener distintos grupos.
  para hacer varias figuras moviendose. 
@@ -64,28 +63,29 @@ CONTROLES
  (Todos los que se crearon desde que se apreto el mouse hasta que se apreto la barra espaciadora).
  
  4) CONTROLosc - MultiButton Demo.
-  Genera también una matriz de dibujos con la posibilidad de activar y desactivar cada dibujo especifico.
-  Este modo de display tiene mapeado el layout multibutton demo de la aplicación ControlOSC,
+   Genera también una matriz de dibujos con la posibilidad de activar y desactivar cada dibujo especifico.
+   Este modo de display tiene mapeado el layout multibutton demo de la aplicación ControlOSC. 
+   
  5) CONTROLosc - MultiTouchXY.
  Te permite manipular cada dibujo utilizando el layout de controlOSC.
 
 
- *t,g : Para aumentar y disminuir el tamaño del dibujo
- *y,h : Para aumentar y disminuir la circunferencia de giro
- *u,j : Para aumentar el efecto espirografico.
- *a  : Para limpiar la pantalla
- *d  : Para activar el modo que se limpia la pantalla constantemente
- *q  : Para randomizar de 0 el tamaño al ultimo tamaño asignado.
- *e  : Para activar un random que te rompe la cabeza con el color.
- *i,k Para aumentar y disminuir el HUE
- *o,l Para aumentar y disminuir la saturacion
+ * t,g : Para aumentar y disminuir el tamaño del dibujo
+ * y,h : Para aumentar y disminuir la circunferencia de giro
+ * u,j : Para aumentar el efecto espirografico.
+ * a  : Para limpiar la pantalla
+ * d  : Para activar el modo que se limpia la pantalla constantemente
+ * q  : Para randomizar de 0 el tamaño al ultimo tamaño asignado.
+ * e  : Para activar un random que te rompe la cabeza con el color.
+ * i,k Para aumentar y disminuir el HUE
+ * o,l Para aumentar y disminuir la saturacion
  * p,ñ Para aumentar y disminuir el brillo.
  * b,n : transparencia. 
  
  Colores del borde
  * 2,3: Tamaño del borde
  * 4,5: Saturación del borde
-  *6,7: brillo del borde
+ * 6,7: brillo del borde
  * 8,9: transparencia del borde
 
 COMO RETOCAR VARIABLES MAXIMAS Y MINIMAS PARA EL RESOLUME : 
@@ -131,9 +131,9 @@ Go to Tools>Add Tools > Libraries y search for :
 
 CONTROLS 
  
- *v : Change displayMODE
- *a : Clears the screen
- *B : PrintScreen
+ * v : Change displayMODE
+ * a : Clears the screen
+ * B : PrintScreen
 
  1) DISPLAY MODE 1 : HANDDRAWING . This mode is for drawing with the mouse.
  Press M for activate the "always draw" or "draw only when press" option
@@ -163,23 +163,23 @@ CONTROLS
  Make posible to control each object separated using the multiTouchXY layout also from OSC
 
 
-* t,g : size
- *y,h : Amplitud
- *u,j : Speed of the spirographich effect
- *d  : Activate always cleaning mode
- *q  : Randomize size of drawing  using SIZE value as the max posible value and 0 as the min posible value
- *e  : HEADACHE RANDOM COLOR. (IT BURNS YOUR BRAIN)
- *i,k : HUE
- *o,l :saturacion
- *p,ñ : brightness.
- *b,n : Alpha channel. 
+ * t,g : size
+ * y,h : Amplitud
+ * u,j : Speed of the spirographich effect
+ * d  : Activate always cleaning mode
+ * q  : Randomize size of drawing  using SIZE value as the max posible value and 0 as the min posible value
+ * e  : HEADACHE RANDOM COLOR. (IT BURNS YOUR BRAIN)
+ * i,k : HUE
+ * o,l :saturacion
+ * p,ñ : brightness.
+ * b,n : Alpha channel. 
  
  STROKE : 
  * 1: HUE
  * 2,3: SIZE
  * 4,5: SATURATION
- *6,7: brightness
- *8,9: Alpha channel
+ * 6,7: brightness
+ * 8,9: Alpha channel
  
 
  
