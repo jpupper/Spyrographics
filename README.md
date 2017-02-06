@@ -1,5 +1,25 @@
 # Spyrographics
 
+VIDEO : 
+https://www.youtube.com/watch?v=Puk9GwLdf-g&t=3s
+
+GIFS : 
+
+SPYROGRAPHICS ONLY : 
+https://media.giphy.com/media/l0HlE1StQMxSopLt6/200.gif#26
+https://media.giphy.com/media/3o6ZtoDLw5MFU9Uy9W/200.gif#29
+https://media.giphy.com/media/l0HlMiSKaNkZJI8eI/200.gif#34
+
+SPYROGRAPHICS && RESOLUME : 
+
+https://media.giphy.com/media/l2JhFafVpK9UN5xKM/200.gif#15
+https://media.giphy.com/media/l2JhFafVpK9UN5xKM/200.gif#15
+https://media.giphy.com/media/3oriO07YHnivWJIdZm/200.gif#23
+
+Album de imagenes - ALBUM OF IMAGES MADE WITH THIS SOFT :
+
+https://www.facebook.com/julian.puppo/media_set?set=a.10209248135934727.1073741837.1061460212&type=3
+
 REFERENCIA EN ESPAÑOL:
 
 Aplicación basada en el movimiento de un espirografo para la generación de visuales adaptada para que funcione en el resolume.
@@ -126,7 +146,8 @@ Go to Tools>Add Tools > Libraries y search for :
 * Minim.
 * Spout.
 
-
+ HOW TO CHANGE MIN AND MAX POSIBLES VALUES IN RESOLUME : 
+ open the file with the name "Spyrographics.txt" , there you will find all the variables names, changes max and min values as you wish.
 
 
 CONTROLS 
