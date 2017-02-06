@@ -70,23 +70,23 @@ CONTROLES
  Te permite manipular cada dibujo utilizando el layout de controlOSC.
 
 
- t,g : Para aumentar y disminuir el tamaño del dibujo
- y,h : Para aumentar y disminuir la circunferencia de giro
- u,j : Para aumentar el efecto espirografico.
- a  : Para limpiar la pantalla
- d  : Para activar el modo que se limpia la pantalla constantemente
- q  : Para randomizar de 0 el tamaño al ultimo tamaño asignado.
- e  : Para activar un random que te rompe la cabeza con el color.
- i,k Para aumentar y disminuir el HUE
- o,l Para aumentar y disminuir la saturacion
- p,ñ Para aumentar y disminuir el brillo.
- b,n : transparencia. 
+ *t,g : Para aumentar y disminuir el tamaño del dibujo
+ *y,h : Para aumentar y disminuir la circunferencia de giro
+ *u,j : Para aumentar el efecto espirografico.
+* a  : Para limpiar la pantalla
+* d  : Para activar el modo que se limpia la pantalla constantemente
+* q  : Para randomizar de 0 el tamaño al ultimo tamaño asignado.
+* e  : Para activar un random que te rompe la cabeza con el color.
+ *i,k Para aumentar y disminuir el HUE
+ *o,l Para aumentar y disminuir la saturacion
+ * p,ñ Para aumentar y disminuir el brillo.
+ * b,n : transparencia. 
  
- 1: Colores del borde
- 2,3: Tamaño del borde
- 4,5: Saturación del borde
- 6,7: brillo del borde
- 8,9: transparencia del borde
+Colores del borde
+* 2,3: Tamaño del borde
+* 4,5: Saturación del borde
+ *6,7: brillo del borde
+* 8,9: transparencia del borde
  
  COMO RETOCAR VARIABLES MAXIMAS Y MINIMAS PARA EL RESOLUME : 
  
@@ -141,10 +141,10 @@ CONTROLS
  2) DISPLAY MODE 2 : MATRIX : Makes a object matrix separated of drawings
  
  To add or remove columns and rows :
-  UP :  Add row.
-  DOWN : Remove Row.
-  LEFT : Add column.
-  RIGHT : Remove column.
+  *UP :  Add row.
+  *DOWN : Remove Row.
+  *LEFT : Add column.
+  *RIGHT : Remove column.
 
 
  3) MODO FREE OBJECTS. DEFAULT MODE :
@@ -163,23 +163,23 @@ CONTROLS
  Make posible to control each object separated using the multiTouchXY layout also from OSC
 
 
- t,g : size
- y,h : Amplitud
- u,j : Speed of the spirographich effect
- d  : Activate always cleaning mode
- q  : Randomize size of drawing  using SIZE value as the max posible value and 0 as the min posible value
- e  : HEADACHE RANDOM COLOR. (IT BURNS YOUR BRAIN)
- i,k : HUE
- o,l :saturacion
- p,ñ : brightness.
- b,n : Alpha channel. 
+* t,g : size
+ *y,h : Amplitud
+ *u,j : Speed of the spirographich effect
+ *d  : Activate always cleaning mode
+ *q  : Randomize size of drawing  using SIZE value as the max posible value and 0 as the min posible value
+ *e  : HEADACHE RANDOM COLOR. (IT BURNS YOUR BRAIN)
+* i,k : HUE
+* o,l :saturacion
+ *p,ñ : brightness.
+ *b,n : Alpha channel. 
  
  STROKE : 
- 1: HUE
- 2,3: SIZE
- 4,5: SATURATION
- 6,7: brightness
- 8,9: Alpha channel
+ * 1: HUE
+ * 2,3: SIZE
+ * 4,5: SATURATION
+ *6,7: brightness
+ *8,9: Alpha channel
  
 
  
