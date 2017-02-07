@@ -1,0 +1,243 @@
+This were controls with the keyBoard using a diferent logic.
+Estos controles tenian otra logica
+
+
+void keyPressed() {
+
+
+  if (key == CODED) {
+    if (keyCode == LEFT) {
+      speedX++; 
+      xcant++;
+    }
+    if (keyCode == RIGHT && speedX > 0) {
+      speedX--; 
+      xcant--;
+    }
+    if (keyCode == UP) {
+      speedY++; 
+      ycant++;
+    }
+    if (keyCode == DOWN && speedY > 0) {
+      speedY--; 
+      ycant--;
+    }
+  }
+
+  if (key == '/') {
+    soundsensibility+=sumator;
+    mostrarvariable("soundsensibility", soundsensibility);
+  }
+
+  if (key == '*' && soundsensibility > 0) {
+    soundsensibility-=sumator; 
+    mostrarvariable("soundsensibility", soundsensibility);
+  }
+
+  if (key == 't') {
+    size+=sumator;
+    mostrarvariable("Size", size);
+  }
+  if (key == 'g' && size > sumator) {
+    size-=sumator;
+    mostrarvariable("Size", size);
+  }
+  if (key == 'y') {
+    modulo+=sumator;
+    mostrarvariable("Modulo ", modulo);
+  }
+  if (key == 'h' && modulo > sumator) {
+    modulo-=sumator;  
+    mostrarvariable("Modulo ", modulo);
+  }
+
+  if (key == 'u' ) {
+    inc+=sumator * 0.1;
+    mostrarvariable("inc ", inc);
+  }
+  if (key == 'j' && inc > sumator) {
+    inc-=sumator * 0.1;
+    mostrarvariable("inc ", inc);
+  }
+
+  if (key == 'a') {
+    background(0);
+    print("Reset background ");
+    cont = 0;
+    flag = false;
+  }
+  if (key == 'd') {  
+    isbackground = !isbackground;
+
+
+    TextoActivadoDesactivado(isbackground, "isbackground : ");
+  }
+  
+  //RESET
+  if (key == 'r') {
+    modulo = 0;
+    size = 30;
+    inc = 0;
+    cont = 0;
+    hue = 100;
+    sat = 150;
+    bri = 255; 
+    
+    Bhue = 80;
+    Bsat = 150;
+    Bbri = 0;
+    
+    colormanual = true;
+    israndom = false;
+    println("Reset all");
+    Ccont = 0 ;
+    flagCcont=0;
+  }
+
+  if (key == 'q') {
+
+    israndom = !israndom; 
+    TextoActivadoDesactivado(israndom, "Is random : ");
+  }
+  if (key == 'e') {
+    colormanual = !colormanual; 
+    TextoActivadoDesactivado(colormanual, "colormanual = ");
+  }  
+  if (key == 'i' && colormanual) {
+    hue+=sumator;
+    mostrarvariable("hue", hue);
+    if (hue >= 255) {
+      hue = 0;
+    }
+  }
+  /*if (key == 'k' && colormanual && hue > 0) {
+   hue-=sumator;
+   print("Hue");
+   println(hue);
+   }*/
+  if (key == 'o' && colormanual && sat+sumator  < 255) {
+    sat+=sumator;
+    mostrarvariable("Saturacion ", sat);
+  }
+  if (key == 'l' && colormanual && sat > sumator) {
+    sat-=sumator;
+    mostrarvariable("Saturacion ", sat);
+  }
+  if (key == 'p' && colormanual && bri+sumator  < 255) {
+    bri+=sumator;
+    mostrarvariable("Brillo ", bri);
+  }
+  if (key == 'ñ' && colormanual  && bri  > sumator) {
+    bri-=sumator;
+    mostrarvariable("Brillo ", bri);
+  }
+  if (key == 'n' && trans+sumator  <= 255) {
+    trans+=sumator; 
+    mostrarvariable("Transparencia ", trans);
+  }
+  if (key == 'b'  && trans > sumator) {
+    trans-=sumator; 
+    mostrarvariable("Transparencia ", trans);
+  }
+
+  if (key == 'm') {
+    ismousemode = !ismousemode;
+  }
+  if (key == 'v') {
+    displaymode++;
+    if (displaymode == 4) {
+      displaymode = 1;
+    }
+    mostrarvariable("Display Mode :  ", displaymode);
+  }
+  if (key == 'c' && cont > 0 ) {
+    cont--;
+  }
+  if (key == 'f' && Ccont > 0 && cont > 1) {
+    Ccont--;
+  }
+
+  if (key == 'z') {
+
+    npoints++; 
+    print("npoints");
+    println(npoints);
+  }
+
+  if (key == 'x' && npoints > 1) {
+    npoints--;
+    print("npoints");
+    println(npoints);
+  }
+
+  if (key == '1' && Bsize > 0) {
+    Bsize-= sumator;  
+    mostrarvariable("Bsize", Bsize);
+  }
+
+  if (key == '2' && Bsize+sumator <= 255 ) {
+    Bsize+= sumator;
+    mostrarvariable("Bsize", Bsize);
+  }
+  if (key == '3') {
+    Bhue+= sumator;
+
+    if (Bhue >= 255) {
+      Bhue = 0;
+    }
+    mostrarvariable("Bhue", Bhue);
+  }
+  if (key == '4' && Bsat >= sumator) {
+    Bsat-=sumator;
+    mostrarvariable("Bsat", Bsat);
+  }
+  if (key == '5' && Bsat+sumator  <= 255) {
+    Bsat+=sumator;
+    mostrarvariable("Bsat", Bsat);
+  }
+  if (key == '6' && Bbri >=sumator ) {
+    Bbri-=sumator;
+    mostrarvariable("Bbri", Bbri);
+  }
+  if (key == '7' && Bbri+sumator  <=255) {
+    Bbri+=sumator;
+    mostrarvariable("Bbri", Bbri);
+  }
+  if (key == '8' && Btrans+sumator  <= 255) {
+    Btrans+=sumator;
+    mostrarvariable("Btrans", Btrans);
+  }
+  if (key == '9' && Btrans >= sumator) {
+    Btrans-=sumator;
+    mostrarvariable("Btrans", Btrans);
+  }
+  if (key == '+') {
+    sumator++;
+  }
+
+  if (key == '-') {
+    sumator--;
+  }
+
+  if (key == ' ' && Ccont <= cont && displaymode == 3) {
+    Ccont++;
+    if (Ccont == cont) {
+      Ccont = 0; 
+      flagCcont = 1;
+    }
+
+    if (flagCcont == 0) {
+      flagCcont = 1;
+    }
+  }
+}
+
+void mouseWheel(MouseEvent event) {
+
+  //float e = event.getCount();
+  // println(e);
+  if (event.getCount() == 1 || ( (event.getCount() == -1) && sumator > 1) ) {
+    sumator+= event.getCount();
+  }
+  mostrarvariable("Sumator : ", sumator);
+}

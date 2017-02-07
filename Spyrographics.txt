@@ -1,0 +1,151 @@
+/*{
+	"CREDIT": "SpoutControls - spout.zeal.co",
+	"DESCRIPTION": "Spyrographics",
+	"CATEGORIES": [
+	"Parameter adjustment"
+	],
+	"INPUTS": [
+		{
+			"NAME": "BGrefresh",
+			"TYPE": "bool",
+			"MIN": 0.00,
+			"MAX": 1.00,
+			"DEFAULT": 0.00
+		},
+		{
+			"NAME": "StarOrPolygon",
+			"TYPE": "bool",
+			"MIN": 0.00,
+			"MAX": 1.00,
+			"DEFAULT": 0.00
+		},
+		{
+			"NAME": "RandomPoints",
+			"TYPE": "bool",
+			"MIN": 0.00,
+			"MAX": 1.00,
+			"DEFAULT": 0.00
+		},
+		{
+			"NAME": "Npoints",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 15.00,
+			"DEFAULT": 10.00
+		},
+		{
+			"NAME": "Size",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 400.00,
+			"DEFAULT": 10.00
+		},
+		{
+			"NAME": "Size2",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 400.00,
+			"DEFAULT": 10.00
+		},
+
+		{
+			"NAME": "modulo",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 175.00,
+			"DEFAULT": 5.00
+		},
+		{
+			"NAME": "Rotation Speed",
+			"TYPE": "float",
+			"MIN": -30.00,
+			"MAX": 30.00,
+			"DEFAULT": 0.00
+		},
+		{
+			"NAME": "hue",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 255.00,
+			"DEFAULT": 5.00
+		},
+		{
+			"NAME": "sat",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 255.00,
+			"DEFAULT": 150.00
+		},
+		{
+			"NAME": "bri",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 255.00,
+			"DEFAULT": 255.00
+		},
+		{
+			"NAME": "trans",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 255.00,
+			"DEFAULT": 255.00
+		},
+		{
+			"NAME": "Bsize",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 120.00,
+			"DEFAULT": 2.00
+		},
+		{
+			"NAME": "Bhue",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 255.00,
+			"DEFAULT": 80.00
+		},
+		{
+			"NAME": "Bsat",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 255.00,
+			"DEFAULT": 150.00
+		},
+		{
+			"NAME": "Bbri",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 255.00,
+			"DEFAULT": 0.00
+		},
+		{
+			"NAME": "Btrans",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 255.00,
+			"DEFAULT": 255.00
+		},
+		{
+			"NAME": "X speed",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 20.00,
+			"DEFAULT": 0.00
+		},
+		{
+			"NAME": "Y speed",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 20.00,
+			"DEFAULT": 0.00
+		},
+		{
+			"NAME": "Sonido",
+			"TYPE": "float",
+			"MIN": 0.00,
+			"MAX": 2000.00,
+			"DEFAULT": 60.00
+		},
+		
+	],
+}*/
