@@ -4,6 +4,7 @@ import ddf.minim.*; //Librería de sonido.
 import oscP5.*;
 import netP5.*;
 
+/*UESAAAA*/
 
 /* Spirographics. 
  Software de dibujo y visuales que permite definir objetos que se mueven como un espirografo.
