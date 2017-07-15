@@ -4,7 +4,11 @@ VIDEO :
 https://www.youtube.com/watch?v=Puk9GwLdf-g&t=3s
 
 Video de instalación (como instalarlo): https://www.youtube.com/watch?v=obPg2Rfykkg&t=39s
+
+
 Video de uso (como usarlo): https://www.youtube.com/watch?v=QqH8csJEEi4&t=60s
+
+
 Videos are in spanish for now only.
 
 
